@@ -6,6 +6,7 @@ RUN apt-get update \
 		git \
 		vim-nox \
 		wget \
+    less \
 	&& rm -rf /var/lib/apt/lists/*
 
 ENV LANG C.UTF-8
